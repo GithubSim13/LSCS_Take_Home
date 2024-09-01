@@ -1,0 +1,37 @@
+.shape {
+    position: absolute;
+    opacity: 0.2; 
+    z-index: 1; 
+  }
+  
+  .circle {
+    border-radius: 50%; 
+    width: 600px;
+    height: 600px;
+    background-color: #888888;
+    position: absolute;
+    top: 25%;
+    left: -10%;
+  }
+  
+  .diamond {
+    width: 400px;    
+    height: 400px;   
+    background-color: #888888; 
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: -10%;         
+    right: -5%;        
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 692px solid #888888; 
+    position: absolute;
+    transform: rotate(20deg);
+    top: -80%;
+    left: 35%;
+  }
